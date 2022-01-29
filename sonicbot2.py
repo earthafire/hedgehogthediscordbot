@@ -1,4 +1,6 @@
 import discord
+from config import discToken
+
 
 # intents = discord.Intents.default()
 # intents.members = True
@@ -64,5 +66,5 @@ class MyClient(discord.Client):
         
 
 client = MyClient()
-client.run('NTg0ODM5MDIwOTY2NTc2MTk2.XPQvyA.wH3cVmZI5-ATm7KYGAvuQxKThlA')
+client.run(discToken)
 #https://discord.com/api/oauth2/authorize?client_id=584839020966576196&permissions=1476405312&scope=bot
